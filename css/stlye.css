@@ -1,3 +1,120 @@
+.get-started-section {
+    padding: 80px 0;
+}
+
+.registration-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.option-card {
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 300px;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+}
+
+.option-card i {
+    font-size: 48px;
+    color: var(--primary-color);
+}
+
+.option-card h2 {
+    margin: 0;
+}
+
+.option-card p {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.option-card .btn {
+    margin-top: auto;
+    display: inline-block;
+    width: fit-content;
+    align-self: center;
+}
+
+.steps-section {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.step {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.step-number {
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.step h3 {
+    margin: 0;
+}
+
+.step p {
+    margin: 0;
+}
+
+.login-section {
+    text-align: center;
+    margin: 60px 0;
+    padding: 40px;
+    background: var(--card-bg);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.login-section h2,
+.login-section p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .registration-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 :root {
     --primary: #2563eb;
     --secondary: #1e40af;
