@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internships - HIT Internship Recommendation System</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/stlye.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">HIT IRS</div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="internships.html">Internships</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="internships-hero">
+        <div class="container">
+            <h1 data-aos="fade-up">Available Internships</h1>
+            <div class="search-filters" data-aos="fade-up" data-aos-delay="200">
+                <input type="text" placeholder="Search internships..." class="search-input">
+                <select class="filter-select">
+                    <option value="">All Categories</option>
+                    <option value="software">Software Development</option>
+                    <option value="data">Data Science</option>
+                    <option value="network">Networking</option>
+                    <option value="cyber">Cybersecurity</option>
+                </select>
+                <select class="filter-select">
+                    <option value="">All Locations</option>
+                    <option value="harare">Harare</option>
+                    <option value="bulawayo">Bulawayo</option>
+                    <option value="remote">Remote</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="internships-list">
+        <div class="container">
+            <div class="internship-grid-detailed">
+                <div class="internship-card-detailed" data-aos="fade-up">
+                    <div class="company-header">
+                        <img src="images/company1.png" alt="Company Logo" class="company-logo">
+                        <div class="company-info">
+                            <h3>Software Development Intern</h3>
+                            <p class="company-name">Tech Solutions Zimbabwe</p>
+                        </div>
+                        <span class="badge">Full-time</span>
+                    </div>
+                    <div class="internship-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Harare CBD</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>6 months</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Paid</span>
+                        </div>
+                    </div>
+                    <p class="description">Join our dynamic team working on enterprise-level applications using modern technologies like React, Node.js, and AWS.</p>
+                    <div class="skills-required">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">Apply Now</a>
+                </div>
+
+                <div class="internship-card-detailed" data-aos="fade-up" data-aos-delay="200">
+                    <div class="company-header">
+                        <img src="images/company2.png" alt="Company Logo" class="company-logo">
+                        <div class="company-info">
+                            <h3>Data Science Intern</h3>
+                            <p class="company-name">Analytics Pro</p>
+                        </div>
+                        <span class="badge">Part-time</span>
+                    </div>
+                    <div class="internship-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Remote</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>4 months</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Stipend</span>
+                        </div>
+                    </div>
+                    <p class="description">Work on real-world data analysis projects using machine learning and statistical modeling.</p>
+                    <div class="skills-required">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Statistics</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">Apply Now</a>
+                </div>
+
+                <div class="internship-card-detailed" data-aos="fade-up" data-aos-delay="400">
+                    <div class="company-header">
+                        <img src="images/company3.png" alt="Company Logo" class="company-logo">
+                        <div class="company-info">
+                            <h3>Network Engineering Intern</h3>
+                            <p class="company-name">NetConnect Solutions</p>
+                        </div>
+                        <span class="badge">Full-time</span>
+                    </div>
+                    <div class="internship-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bulawayo</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>6 months</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Paid</span>
+                        </div>
+                    </div>
+                    <p class="description">Gain hands-on experience in network infrastructure, security, and system administration.</p>
+                    <div class="skills-required">
+                        <span class="skill-tag">Cisco</span>
+                        <span class="skill-tag">Network Security</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">CCNA</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="internships.html">Internships</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="tips.html">Career Tips</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Email: info@hit.ac.zw</li>
+                        <li>Phone: +263 242 123456</li>
+                        <li>Address: Harare, Zimbabwe</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 HIT Internship Recommendation System. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
